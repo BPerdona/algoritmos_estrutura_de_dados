@@ -22,8 +22,8 @@ public class Main {
             System.out.println("(6) Listar todos os autores");
             System.out.println("(7) Listar todos os livros");
             System.out.println("(8) Listar todos os livros de um autor");
-            System.out.println("(9) Buscar um autor");
-            System.out.println("(10) Buscar um livro");
+            System.out.println("(9) Detalhes de um autor");
+            System.out.println("(10) Detalhes de um livro");
             System.out.println("(0) Fechar programa");
 
             int userOption = sc.nextInt();
@@ -273,7 +273,7 @@ public class Main {
                         System.out.println("\n_____Detalhes do autor_____\n");
                         System.out.println("\nNome do autor: "+autores.get(index).getNome());
                         System.out.println("Idade: "+autores.get(index).getIdade());
-                        System.out.println("Id Autor: "+autores.get(index).getAutorId());
+                        System.out.println("Id Autor: \n\n"+autores.get(index).getAutorId());
                     }else{
                         System.out.println("\nId de autor não encontrado!!\n");
                     }
