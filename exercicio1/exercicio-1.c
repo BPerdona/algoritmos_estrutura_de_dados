@@ -82,6 +82,12 @@ bool inserirLivro(ListaLinear *lista){
     printf("Insira o indice na lista: \n");
     scanf("%i", &indice);
 
+    //Conferindo requisitos
+    if(indice > lista->nLivros || indice < 0 || lista->nLivros == lista->maxLivros){
+        printf("\n\n\nNão foi possivel adicionar!!");
+        return false;    
+    }
+
     printf("Insira o Id do livro \n");
     scanf("%i", &l->idLivro);
 
@@ -93,13 +99,6 @@ bool inserirLivro(ListaLinear *lista){
    
     printf("Insira o genero do livro \n");
     scanf("%s", &l->generolivro);
-
-
-    //Conferindo requisitos
-    if(indice > lista->nLivros || indice < 0 || lista->nLivros == lista->maxLivros){
-        printf("\n\n\nNão foi possivel adicionar!!");
-        return false;    
-    }
 
     //Percorrendo a lista
     int i;

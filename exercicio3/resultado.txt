@@ -1,0 +1,24 @@
+
+__________VETORES__________
+Tempo do bubbleSort em vetor: 15979 ms
+Tempo do Selection Sort em vetor: 2063 ms
+Tempo do Insertion Sort em vetor: 6272 ms
+Tempo do Merge Sort em vetor: 26 ms
+Tempo do Quick Sort em vetor: 16 ms
+Tempo do Java.sort em vetor: 32 ms
+
+__________Linked_List__________
+Tempo do bubbleSort em Linked List: 131302497 ms
+Tempo do Selection Sort em Linked List: 31058538 ms
+Tempo do Insertion Sort em Linked List: 56525679 ms
+Tempo do Merge Sort em Linked List: 73434 ms
+Tempo do Quick Sort em Linked List: 45965 ms
+Tempo do Collection.sort em Linked List: 30 ms
+
+__________Array_List__________
+Tempo do bubbleSort em Array List: 17992 ms
+Tempo do Selection Sort em Array List: 2800 ms
+Tempo do Insertion Sort em Array List: 7424 ms
+Tempo do Merge Sort em Array List: 63 ms
+Tempo do Quick Sort em Array List: 30 ms
+Tempo do Collection.sort em Array List: 11 ms
